@@ -1,0 +1,14 @@
+<p *ngIf="title">child2 works!</p>
+<h1>parent variable value</h1>
+<h1>{{ parentvariablevalue }}</h1>
+
+<p *ngFor="let person of person" id="demo">{{ person.name }}</p>
+
+<input type="text" [(ngModel)]="name" /><br /><br />
+<!--<p>Student Name= {{ name }}</p>-->
+<button (click)="nav()">click</button>
+<p id="dinesh"></p>
+<input type="number" [(ngModel)]="nameid" /><br /><br />
+<!--<p>Student Id= {{ nameid }}</p> -->
+<button (click)="nav1()">click</button>
+<p id="dinesh1"></p>

@@ -1,0 +1,11 @@
+p {
+  font-family: Lato;
+}
+button {
+  background-color: black;
+  color: white;
+}
+h1 {
+  color: blue;
+  border: 1px, rgb(0, 0, 0);
+}
